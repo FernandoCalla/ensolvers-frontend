@@ -1,0 +1,16 @@
+.link{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.main-content{
+    display:flex;    
+    flex-direction: column;
+    gap:12px;
+}
+.input {
+    width: auto;
+    margin-top: 5px;
+}
+.button{
+    margin: 1rem;
+}

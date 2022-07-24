@@ -1,0 +1,25 @@
+.card{
+    display: flex;
+    /* flex: 1 auto 1; */
+    flex-direction: row;
+    /* justify-content: space-between; */
+    min-width: 400px;
+    height: auto;
+    margin: 2px;
+}
+.icon{
+    display: flex;
+    padding-left: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    padding-left: 1rem;
+    flex-grow: 3;
+}
+.icons{
+    display: flex;
+    flex-direction: row;    
+    align-items: flex-end;
+    width: auto;
+}
