@@ -15,7 +15,7 @@ const ArchivedNotes=()=>{
     const [notes, setnotes] = useState([])
     const [actualizarData,setActualizarData]=useState(false)
     const {showError}=useAlertMessage()
-    const baseURL="https://ensolvers-challenge-fernando-c.herokuapp.com/"
+    const baseURL="https://ensolvers-challenge-fernando-c.herokuapp.com"
     let navigate=useNavigate()
     useEffect(() => {
       axios.get(`${baseURL}/notes/archived`).then(

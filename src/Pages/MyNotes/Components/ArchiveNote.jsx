@@ -19,7 +19,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 
 const ArchiveNote=({note={},actualizarData,setActualizarData})=> {
   const [open, setOpen] = useState(false);
-  const baseURL="https://ensolvers-challenge-fernando-c.herokuapp.com/"
+  const baseURL="https://ensolvers-challenge-fernando-c.herokuapp.com"
   const {showSuccess,showError}=useAlertMessage()
   const [loading, setloading] = useState(false)
 
