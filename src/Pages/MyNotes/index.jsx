@@ -15,7 +15,7 @@ const MyNotes=()=>{
     const [notes, setnotes] = useState([])
     const [actualizarData,setActualizarData]=useState(false)
     const {showError}=useAlertMessage()
-    const baseURL="http://localhost:4000"
+    const baseURL="https://ensolvers-challenge-fernando-c.herokuapp.com/"
     let navigate=useNavigate()
     useEffect(() => {
       axios.get(`${baseURL}/notes/active`).then(
